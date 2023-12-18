@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+    font-family: var(--font-montserrat);
+}
+
+.secondary {
+    font-family: var(--font-ptSerif);
+}
+
+.primary-blue {
+    color: #154992;
+}
+
+.medium-blue {
+    color: #283ceb;
+}
+
+.light-blue {
+    color: #28b7eb;
+}
+
+header>nav>div>a {
+    color: #ffffff;
+}
+
+header>nav>div>a:hover {
+    color: #28b7eb;
+    text-decoration: underline;
+    text-underline-offset: 16px;
+}
+
+.Star-1 {
+    width: 41.8px;
+    height: 41.8px;
+    flex-grow: 0;
+    background-color: #f5e65c;
+}
+
+#mobileMenu ul li:hover {
+    color: #ffffff;
+}
+
+.adopstarlink:hover:after {
+    content: url(/images/adopstar-star20px.svg);
+    display: inline-block;
+    font-size: 18px;
+    line-height: 0px;
+    vertical-align: middle;
+}
+
+.adopstarlink:after {
+    content: " ";
+    display: inline-block;
+    font-size: 18px;
+    line-height: 0px;
+    vertical-align: middle;
+    width: 14px;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.slick-dots li button:before {
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff !important;
+}
+
+a.cky-banner-element {
+    padding: 8px 30px;
+    background: #F8F9FA;
+    color: #858A8F;
+    border: 1px solid #DEE2E6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.privacy-policy-p,
+.cookie-policy-p {
+    margin: 14px 0;
+}
+
+.privacy-policy-h2 {
+    font-weight: bold;
+}
+
+.privacy-policy-ol {
+    list-style: revert;
+    margin: 10px 20px;
+}
